@@ -10,22 +10,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class HomePageTests {
-
-    WebDriver driver;
-
-    @BeforeMethod
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.get("https://telranedu.web.app");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
-
-    @AfterMethod(enabled = false)
-    public void tearDown() {
-        driver.quit();
-    }
+public class HomePageTests extends TestBase {
 
     @Test
     public void isHomeComponentPresentTest() {
@@ -39,9 +24,5 @@ public class HomePageTests {
         return driver.findElements(By.cssSelector("div:nth-child(2) div h1")).size() > 0;
     }
 
-    public boolean isElementPresent(By locator) {
-        return driver.findElements(locator).size() > 0;
-    }
-
-
 }
+
