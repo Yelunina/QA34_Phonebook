@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b54937b-13fd-4fd8-b3a5-c8d0b9041228" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/DeleteContactTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/AddContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/AddContactTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/CreateAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/CreateAccountTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/HomePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,25 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.CreateAccountTests">
+  <component name="RunManager" selected="TestNG.DeleteContactTests">
+    <configuration name="AddContactTests.addContactPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA34_Phonebook.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.AddContactTests" />
+      <option name="METHOD_NAME" value="addContactPositiveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateAccountTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
@@ -72,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAccountTests.createNewAccountPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteContactTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
         <pattern>
@@ -81,25 +105,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.phonebook.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.CreateAccountTests" />
-      <option name="METHOD_NAME" value="createNewAccountPositiveTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA34_Phonebook.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.phonebook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.HomePageTests" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.DeleteContactTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.isHomeComponentPresent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteContactTests.deliteContactPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.phonebook.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.HomePageTests" />
-      <option name="METHOD_NAME" value="isHomeComponentPresent" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.DeleteContactTests" />
+      <option name="METHOD_NAME" value="deliteContactPositiveTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.isHomeComponentPresentTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.loginNegativeTestWithoutEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.phonebook.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.HomePageTests" />
-      <option name="METHOD_NAME" value="isHomeComponentPresentTest" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginNegativeTestWithoutEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DeleteContactTests" />
+        <item itemvalue="TestNG.LoginTests.loginNegativeTestWithoutEmail" />
         <item itemvalue="TestNG.CreateAccountTests" />
-        <item itemvalue="TestNG.CreateAccountTests.createNewAccountPositiveTest" />
-        <item itemvalue="TestNG.HomePageTests" />
-        <item itemvalue="TestNG.HomePageTests.isHomeComponentPresentTest" />
-        <item itemvalue="TestNG.HomePageTests.isHomeComponentPresent" />
+        <item itemvalue="TestNG.AddContactTests.addContactPositiveTest" />
+        <item itemvalue="TestNG.DeleteContactTests.deliteContactPositiveTest" />
       </list>
     </recent_temporary>
   </component>
