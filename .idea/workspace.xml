@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b54937b-13fd-4fd8-b3a5-c8d0b9041228" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/DeleteContactTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/BaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/ContactHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/HomePageTestsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/AddContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/AddContactTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/models/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/CreateAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/CreateAccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/DeleteContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/DeleteContactTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/HomePageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/models/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +66,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.DeleteContactTests">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.phonebook.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.com.phonebook.tests">
     <configuration name="AddContactTests.addContactPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.tests.*" />
+          <option name="PATTERN" value="com.phonebook.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +94,7 @@
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.tests.*" />
+          <option name="PATTERN" value="com.phonebook.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,7 +111,7 @@
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.tests.*" />
+          <option name="PATTERN" value="com.phonebook.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,29 +124,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteContactTests.deliteContactPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA34_Phonebook.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.phonebook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.DeleteContactTests" />
-      <option name="METHOD_NAME" value="deliteContactPositiveTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTests.loginNegativeTestWithoutEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.phonebook.tests.*" />
+          <option name="PATTERN" value="com.phonebook.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,13 +142,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.phonebook.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA34_Phonebook.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.com.phonebook.tests" />
         <item itemvalue="TestNG.DeleteContactTests" />
         <item itemvalue="TestNG.LoginTests.loginNegativeTestWithoutEmail" />
         <item itemvalue="TestNG.CreateAccountTests" />
         <item itemvalue="TestNG.AddContactTests.addContactPositiveTest" />
-        <item itemvalue="TestNG.DeleteContactTests.deliteContactPositiveTest" />
       </list>
     </recent_temporary>
   </component>
