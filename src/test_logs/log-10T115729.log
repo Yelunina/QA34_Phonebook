@@ -1,0 +1,5 @@
+11:57:29.820 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+11:57:31.747 [main] INFO  com.phonebook.tests.TestBase -- Start test
+11:57:31.775 [main] INFO  com.phonebook.tests.TestBase -- Stop test

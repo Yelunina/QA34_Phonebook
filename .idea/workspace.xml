@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b54937b-13fd-4fd8-b3a5-c8d0b9041228" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/BaseHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/ContactHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/HomePageTestsHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/UserHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/data/ContactData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/data/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/AddContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/AddContactTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/phonebook/tests/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/phonebook/tests/HomePageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.phonebook.tests.HomePageTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.phonebook.tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.phonebook.tests.HomePageTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/phonebook/fw/BaseHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/phonebook/fw/BaseHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/phonebook/fw/HomePageTestsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/phonebook/fw/HomePageTestsHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/phonebook/tests/CreateAccountTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/phonebook/tests/CreateAccountTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/phonebook/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/phonebook/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/BaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/BaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/HomePageTestsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/fw/HomePageTestsHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/CreateAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/CreateAccountTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/DeleteContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/DeleteContactTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/HomePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/phonebook/tests/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/phonebook/models/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -59,37 +72,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.phonebook.tests" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.com.phonebook.tests">
-    <configuration name="AddContactTests.addContactPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA34_Phonebook.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.phonebook.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.phonebook.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.AddContactTests" />
-      <option name="METHOD_NAME" value="addContactPositiveTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CreateAccountTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA34_Phonebook.test" />
       <extension name="coverage">
@@ -117,6 +113,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.phonebook.tests" />
       <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.DeleteContactTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA34_Phonebook.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phonebook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.phonebook.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.phonebook.tests.HomePageTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -161,10 +174,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.com.phonebook.tests" />
+        <item itemvalue="TestNG.HomePageTests" />
         <item itemvalue="TestNG.DeleteContactTests" />
         <item itemvalue="TestNG.LoginTests.loginNegativeTestWithoutEmail" />
         <item itemvalue="TestNG.CreateAccountTests" />
-        <item itemvalue="TestNG.AddContactTests.addContactPositiveTest" />
       </list>
     </recent_temporary>
   </component>

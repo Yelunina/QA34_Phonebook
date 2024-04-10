@@ -1,0 +1,27 @@
+23:46:27.340 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+23:46:29.170 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTest
+23:46:31.346 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTest
+23:46:31.346 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+23:46:31.346 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+23:46:31.348 [main] INFO  com.phonebook.tests.TestBase -- Start test createNewAccountWithExistedEmailNegativeTest
+23:46:42.462 [main] INFO  com.phonebook.tests.TestBase -- PASSED createNewAccountWithExistedEmailNegativeTest
+23:46:42.462 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+23:46:42.462 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+23:46:42.465 [main] INFO  com.phonebook.tests.TestBase -- Start test loginNegativeTestWithoutEmail
+23:46:58.239 [main] ERROR com.phonebook.tests.TestBase -- FAILED loginNegativeTestWithoutEmail Screenshot: C:\Qa\QA34_Phonebook\screenshots\screen-1712785618197.png
+23:46:58.239 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+23:46:58.240 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+23:46:58.243 [main] INFO  com.phonebook.tests.TestBase -- Start test loginPositiveTest
+23:47:09.338 [main] INFO  com.phonebook.tests.TestBase -- PASSED loginPositiveTest
+23:47:09.339 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+23:47:09.339 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+23:47:09.340 [main] INFO  com.phonebook.tests.TestBase -- Start test isHomeComponentPresentTest
+23:47:29.770 [main] ERROR com.phonebook.tests.TestBase -- FAILED isHomeComponentPresentTest Screenshot: C:\Qa\QA34_Phonebook\screenshots\screen-1712785649748.png
+23:47:29.770 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+23:47:29.770 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+23:47:29.773 [main] INFO  com.phonebook.tests.TestBase -- Start test deleteContactPositiveTest
+23:47:52.089 [main] INFO  com.phonebook.tests.TestBase -- PASSED deleteContactPositiveTest
+23:47:52.089 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+23:47:52.089 [main] INFO  com.phonebook.tests.TestBase -- =============================================

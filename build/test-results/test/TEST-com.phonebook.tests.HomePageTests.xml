@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.phonebook.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-04T08:29:13" hostname="DESKTOP-BT11GIK" time="0.028">
-  <properties/>
-  <testcase name="isHomeComponentPresent" classname="com.phonebook.tests.HomePageTests" time="0.028"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

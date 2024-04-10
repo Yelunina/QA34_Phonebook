@@ -1,0 +1,27 @@
+22:57:57.489 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+22:58:01.089 [main] INFO  com.phonebook.tests.TestBase -- Start test createNewAccountWithExistedEmailNegativeTest
+22:58:02.993 [main] INFO  com.phonebook.tests.TestBase -- PASSED createNewAccountWithExistedEmailNegativeTest
+22:58:02.994 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+22:58:02.994 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+22:58:02.998 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTest
+22:58:04.876 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTest
+22:58:04.877 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+22:58:04.877 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+22:58:04.877 [main] INFO  com.phonebook.tests.TestBase -- Start test loginNegativeTestWithoutEmail
+22:58:15.871 [main] INFO  com.phonebook.tests.TestBase -- PASSED loginNegativeTestWithoutEmail
+22:58:15.871 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+22:58:15.871 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+22:58:15.874 [main] INFO  com.phonebook.tests.TestBase -- Start test loginPositiveTest
+22:58:16.858 [main] INFO  com.phonebook.tests.TestBase -- PASSED loginPositiveTest
+22:58:16.858 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+22:58:16.859 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+22:58:16.863 [main] INFO  com.phonebook.tests.TestBase -- Start test deleteContactPositiveTest
+22:58:39.878 [main] INFO  com.phonebook.tests.TestBase -- PASSED deleteContactPositiveTest
+22:58:39.878 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+22:58:39.878 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+22:58:39.879 [main] INFO  com.phonebook.tests.TestBase -- Start test isHomeComponentPresentTest
+22:58:39.911 [main] INFO  com.phonebook.tests.TestBase -- PASSED isHomeComponentPresentTest
+22:58:39.911 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+22:58:39.911 [main] INFO  com.phonebook.tests.TestBase -- =============================================

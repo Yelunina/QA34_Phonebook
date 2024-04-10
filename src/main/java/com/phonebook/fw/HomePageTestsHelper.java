@@ -9,7 +9,7 @@ public class HomePageTestsHelper extends BaseHelper{
     }
 
     public boolean isHomeComponentPresent() {
-     return isElementPresent(By.cssSelector("div:nth-child(2) div h1"));
+     return isElementPresent(By.cssSelector("div:nth-child(2) div h5"));
  }
 
     public void clickOnHomeLink() {
