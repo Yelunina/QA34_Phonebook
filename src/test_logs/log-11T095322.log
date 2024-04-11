@@ -1,0 +1,15 @@
+09:53:23.237 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+09:53:25.184 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProvider
+09:53:27.517 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProvider
+09:53:27.518 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+09:53:27.518 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+09:53:27.519 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProvider
+09:53:39.755 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProvider
+09:53:39.755 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+09:53:39.755 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+09:53:39.757 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProvider
+09:53:51.668 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProvider
+09:53:51.668 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+09:53:51.668 [main] INFO  com.phonebook.tests.TestBase -- =============================================

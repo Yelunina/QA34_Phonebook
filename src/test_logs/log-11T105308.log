@@ -1,0 +1,19 @@
+10:53:09.160 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+10:53:10.984 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile
+10:53:13.378 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+10:53:13.380 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10:53:13.380 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+10:53:13.381 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile
+10:53:25.795 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+10:53:25.795 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10:53:25.796 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+10:53:25.799 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile
+10:53:38.068 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+10:53:38.068 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10:53:38.068 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+10:53:38.070 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile
+10:53:49.846 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+10:53:49.847 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10:53:49.847 [main] INFO  com.phonebook.tests.TestBase -- =============================================

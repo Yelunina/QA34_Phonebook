@@ -1,0 +1,19 @@
+11:02:38.149 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+11:02:40.348 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Iryna', phone='1234567890', email='yelunina@ukr.net'}]
+11:02:42.787 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+11:02:42.787 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:02:42.787 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+11:02:42.788 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Roman', phone='9876543210111', email='roman.79@gmail.com'}]
+11:02:55.294 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+11:02:55.294 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:02:55.294 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+11:02:55.299 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Pavel', phone='135648977777', email='pavel_163@gmail.com'}]
+11:03:07.649 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+11:03:07.649 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:03:07.649 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+11:03:07.652 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Igor', phone='4561237890', email='igorigor-1@gmail.com'}]
+11:03:19.494 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+11:03:19.494 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:03:19.494 [main] INFO  com.phonebook.tests.TestBase -- =============================================

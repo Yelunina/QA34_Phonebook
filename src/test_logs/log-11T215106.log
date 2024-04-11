@@ -1,0 +1,55 @@
+21:51:07.173 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+21:51:09.647 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTest with data []
+21:51:11.928 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTest
+21:51:11.928 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:51:11.928 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:51:11.930 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProvider with data [Iryna, Yelunina, 1234567890, yelunina@ukr.net, Yelunina1234$, student]
+21:51:24.924 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProvider
+21:51:24.925 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:51:24.925 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:51:24.928 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProvider with data [Iryna, Yelunina, 1234567890, yelunina@ukr.net, Yelunina1234$, student]
+21:51:37.447 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProvider
+21:51:37.447 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:51:37.447 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:51:37.448 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProvider with data [Iryna, Yelunina, 1234567890, yelunina@ukr.net, Yelunina1234$, student]
+21:51:50.040 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProvider
+21:51:50.041 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:51:50.041 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:51:50.073 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Iryna', phone='1234567890', email='yelunina@ukr.net'}]
+21:52:02.684 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+21:52:02.684 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:52:02.684 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:52:02.686 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Roman', phone='9876543210111', email='roman.79@gmail.com'}]
+21:52:14.775 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+21:52:14.775 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:52:14.775 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:52:14.776 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Pavel', phone='135648977777', email='pavel_163@gmail.com'}]
+21:52:27.075 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+21:52:27.075 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:52:27.075 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:52:27.080 [main] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTestFromDataProviderWithCsvFile with data [Contact{name='Igor', phone='4561237890', email='igorigor-1@gmail.com'}]
+21:52:39.283 [main] INFO  com.phonebook.tests.TestBase -- PASSED addContactPositiveTestFromDataProviderWithCsvFile
+21:52:39.283 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:52:39.283 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:52:39.286 [main] INFO  com.phonebook.tests.TestBase -- Start test loginNegativeTestWithoutEmail with data []
+21:52:50.467 [main] INFO  com.phonebook.tests.TestBase -- PASSED loginNegativeTestWithoutEmail
+21:52:50.469 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:52:50.470 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:52:50.477 [main] INFO  com.phonebook.tests.TestBase -- Start test loginPositiveTest with data []
+21:52:51.541 [main] INFO  com.phonebook.tests.TestBase -- PASSED loginPositiveTest
+21:52:51.541 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:52:51.541 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:52:51.545 [main] INFO  com.phonebook.tests.TestBase -- Start test deleteContactPositiveTest with data []
+21:53:05.599 [main] INFO  com.phonebook.tests.TestBase -- PASSED deleteContactPositiveTest
+21:53:05.599 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:53:05.599 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:53:05.602 [main] INFO  com.phonebook.tests.TestBase -- Start test isHomeComponentPresentTest with data []
+21:53:15.792 [main] INFO  com.phonebook.tests.TestBase -- PASSED isHomeComponentPresentTest
+21:53:15.793 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:53:15.793 [main] INFO  com.phonebook.tests.TestBase -- =============================================
+21:53:15.795 [main] INFO  com.phonebook.tests.TestBase -- Start test createNewAccountWithExistedEmailNegativeTest with data []
+21:53:27.065 [main] INFO  com.phonebook.tests.TestBase -- PASSED createNewAccountWithExistedEmailNegativeTest
+21:53:27.065 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+21:53:27.065 [main] INFO  com.phonebook.tests.TestBase -- =============================================
